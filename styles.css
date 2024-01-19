@@ -1,0 +1,40 @@
+h2 { 
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+    margin: auto;
+  }
+  
+  /*<td>: The Table Data Cell element. The <td> HTML element defines a cell of a table that contains data.*/
+  /*<th>: The Table Header element. The <th> HTML element defines a cell as the header of a group of table cells.  */
+  td, th {
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  /* tr:nth-child(even) {
+    background-color: #dddddd;
+  } */
+
+  .topQuestions {
+    display: block;
+    overflow: hidden;
+    width: 90%;
+    margin: auto;
+  }
+
+  #submitButton {
+    width: 20%;
+    display: block;
+    margin: auto;
+    
+  }

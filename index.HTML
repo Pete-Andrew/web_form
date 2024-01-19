@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <h2>New Starter Set Up</h2>
+
+    <p>Managers, Please use this form to request staff set up after SystmOne training has taken place</p>
+
+    <p>* Essential</p>
+    <form id="userDetails" action="" method="get" autocomplete="on">
+    
+      <table>
+
+      <tr>
+        <td>SystmOne Training*</td>
+        <td> Date E-leanrning Completed: <input id="part1Date" name="Part_1_E-learning_Completed" type="date"> <br>
+             Date Part 2 F2F completed: <input type="date"> <br>
+             Part 2 Trainers Name: <select id="trainers">
+              <option value="Matt">Derek</option>
+              <option value="Ems">Clive</option>
+             
+        </td>
+      </tr>
+      
+      <!-- name="" is the name used as the first part of the JSON object -->
+      <tr>
+        <td>User's full name*</td>
+        <td><input type="text" id="fullNameID" name="Full_Name"></td>
+      </tr>
+
+      <tr>
+        <td>SmartCard Number: </td>
+        <td><input type="text" id="smartcardNoID" name="Smartcard_Number"></td>       
+      </tr>
+
+      <tr>
+        <td>Job Role*</td>
+        <td><input type="text" id="jobRoleID" name="Job_Role"></td>       
+      </tr>
+      
+      <tr>
+        <td>NHS email address*</td>
+        <td><input type="text" id="emailAddressID" name="Email_Address"></td> 
+      </tr>
+      
+      <tr>
+        <td>Professional registration Number e.g. NMC, GMC, HCPC etc. </td>
+        <td><input type="text" id="profRegID" name="Professional_Registration_Number"></td> 
+      </tr>
+
+    </tr>
+    <tr>
+      
+      <td>SystmOne Unit*</td>
+      <td> <span><select id="s1UnitsID" name="SystmOne_Unit">
+        <option>Disco</option>
+        <option>City17</option>
+        <option>The Capital</option>
+        <option>SPQR</option></span> 
+      </td>
+
+    </table>
+
+    <br>
+<!-- second part of the form with 3 columns -->
+    <table>
+
+        <tr>
+          <td>Rota Required </td>
+          <td> 
+            <input id="rotaYesID" type="radio" class="Yes" name="Rota_Required" value="Yes">
+            <label for="html">Yes</label>
+            <input id="rotaNoID" type="radio" class="No" name="Rota_Required" value="No">
+            <label for="html">No</label><br>
+        </td>
+             </td>
+
+          <td> - </td>
+        </tr>
+        
+        <tr>
+          <td>Performs Visits</td>
+          <td>             
+            <input type="radio" class="Yes" name="fav_language" value="Yes">
+            <label for="html">Yes</label>
+            <input type="radio" class="No" name="fav_language" value="No">
+            <label for="html">No</label><br> </td>
+          <td> - </td>
+        </tr>
+        
+        <tr>
+          <td>Electronic Pathology Requesting</td>
+          <td> 
+            <input type="radio" class="Yes" name="fav_language" value="Yes">
+            <label for="html">Yes</label>
+            <input type="radio" class="No" name="fav_language" value="No"> 
+            <label for="html">No</label><br> </td></td>           
+          <td> - </td>
+        </tr>
+        
+        <tr>
+          <td>Authorised to Countersign ~ Registered Staff Only </td>
+          <td><input type="radio" class="Yes" name="fav_language" value="Yes">
+            <label for="html">Yes</label>
+            <input type="radio" class="No" name="fav_language" value="No"> 
+            <label for="html">No</label><br> </td></td>           </td>
+          <td> - </td>
+        </tr>
+        
+        <tr>
+          <td>Countersigining Requires ~ All Unregisterd Staff</td>
+          <td><input type="radio" class="Yes" name="fav_language" value="Yes">
+            <label for="html">Yes</label>
+            <input type="radio" class="No" name="fav_language" value="No"> 
+            <label for="html">No</label><br> </td></td>           </td>
+          <td> - </td>
+        </tr>
+        
+        <tr>
+          <td>Add to task group ~</td>
+          <td><input type="radio" class="Yes" name="fav_language" value="Yes">
+            <label for="html">Yes</label>
+            <input type="radio" class="No" name="fav_language" value="No"> 
+            <label for="html">No</label><br> </td></td>           </td>
+          <td> - </td>
+        </tr>
+
+        <tr>
+            <td>New Caseload Required</td>
+            <td><input type="radio" class="Yes" name="fav_language" value="Yes">
+              <label for="html">Yes</label>
+              <input type="radio" class="No" name="fav_language" value="No"> 
+              <label for="html">No</label><br> </td></td>           </td>
+            <td> - </td>
+          </tr>
+
+          <tr>
+            <td>New Waiting List Required ~</td>
+            <td><input type="radio" class="Yes" name="fav_language" value="Yes">
+              <label for="html">Yes</label>
+              <input type="radio" class="No" name="fav_language" value="No"> 
+              <label for="html">No</label><br> </td></td>           </td>
+            <td> Wating List Name ~ </td>
+          </tr>
+
+          <tr>
+            <td>E-Referral Service</td>
+            <td><input type="radio" class="Yes" name="fav_language" value="Yes">
+              <label for="html">Yes</label>
+              <input type="radio" class="No" name="fav_language" value="No"> 
+              <label for="html">No</label><br> </td></td>           </td>
+            <td> - </td>
+          </tr>
+
+        </table>
+        <br>
+        <table>
+          <tr>
+            <td>Submitted by: Name and Role</td>
+            <td>date</td>
+          </tr>
+
+        </table>
+        <br>
+        
+        <button onclick="woo(); handleFormSubmit(event)" id="submitButton" type="submit">Submit</button>
+
+    </form>
+  
+    <div class="results">
+      <h2>Form Data</h2>
+      <pre></pre>
+    </div>
+
+    
+  </body>
+  <script src="script.js"></script>
+  </html>
