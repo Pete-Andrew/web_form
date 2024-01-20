@@ -19,8 +19,6 @@ function handleFormSubmit(event) {
 }
   
 
-//   https://www.learnwithjason.dev/blog/get-form-values-as-json/
-
 
 function woo() { 
 console.log("wicca woo");
@@ -29,3 +27,10 @@ console.log("wicca woo");
 // function userDetailsLog() {
 //   console.log(smartCardNumber.value) 
 // }
+
+
+
+// Referrences: 
+
+//https://www.learnwithjason.dev/blog/get-form-values-as-json/
+//https://www.youtube.com/watch?v=QS554vB5gKI
