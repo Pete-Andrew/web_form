@@ -1,7 +1,8 @@
 // stops the page instantly refreshing on click submit
-document.getElementById("submitButton").addEventListener("click", function(event){
-  event.preventDefault()
-});
+// document.getElementById("submitButton").addEventListener("click", function(event){
+//   event.preventDefault()
+// });
+
 
 function handleFormSubmit(event) {
   event.preventDefault();
@@ -28,9 +29,11 @@ console.log("wicca woo");
 //   console.log(smartCardNumber.value) 
 // }
 
+//Comments:
 
 
 // Referrences: 
 
 //https://www.learnwithjason.dev/blog/get-form-values-as-json/
 //https://www.youtube.com/watch?v=QS554vB5gKI
+//https://www.youtube.com/watch?v=GtHN0VnmgzA
