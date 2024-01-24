@@ -17,12 +17,14 @@ function handleFormSubmit(event) {
   
   const results = document.querySelector('.results pre');
   results.innerText = JSON.stringify(formJSON, null, 2);
+  console.log(results.innerText);
 }
   
 
 
 function woo() { 
 console.log("wicca woo");
+
 }
 
 // function userDetailsLog() {
