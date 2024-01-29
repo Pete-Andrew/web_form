@@ -11,7 +11,7 @@
     
     <h2>New Starter Set Up</h2>
 
-    <p>Managers, Please use this form to request staff set up after SystmOne training has taken place</p>
+    <p>Managers, Please use this form to request staff set up after SystmJuan training has taken place</p>
 
     <p>* Essential</p>
     <form id="userDetails" action="" method="get" autocomplete="on">
@@ -19,9 +19,9 @@
       <table>
 
       <tr>
-        <td>SystmOne Training*</td>
-        <td> Date E-leanrning Completed: <input id="part1Date" name="Part_1_E-learning_Completed" type="date"> <br>
-             Date Part 2 F2F completed: <input type="date"> <br>
+        <td>SystmJuan Training*</td>
+        <td> Date E-learning Completed: <input id="part1Date" name="Part_1_E-learning_Completed" type="date"> <br>
+             Date Part 2 F2F completed: <input id="part2date" name="Part_2_F2F_learning_Completed" type="date"> <br>
              Part 2 Trainers Name: <select id="trainers">
               <option value="Matt">Derek</option>
               <option value="Ems">Clive</option>
@@ -58,7 +58,7 @@
     </tr>
     <tr>
       
-      <td>SystmOne Unit*</td>
+      <td>SystmJuan Unit*</td>
       <td> <span><select id="s1UnitsID" name="SystmOne_Unit">
         <option>Disco</option>
         <option>City17</option>
@@ -98,14 +98,14 @@
         <tr>
           <td>Electronic Pathology Requesting</td>
           <td> 
-            <input type="radio" class="Yes" name="fav_language" value="Yes">
+            <input type="radio" class="Yes" name="E-pathology_requesting" value="Yes">
             <label for="html">Yes</label>
-            <input type="radio" class="No" name="fav_language" value="No"> 
+            <input type="radio" class="No" name="E-pathology_requesting" value="No"> 
             <label for="html">No</label><br> </td></td>           
           <td> - </td>
         </tr>
         
-        <tr>
+        <!-- <tr>
           <td>Authorised to Countersign ~ Registered Staff Only </td>
           <td><input type="radio" class="Yes" name="fav_language" value="Yes">
             <label for="html">Yes</label>
@@ -165,12 +165,12 @@
           <tr>
             <td>Submitted by: Name and Role</td>
             <td>date</td>
-          </tr>
+          </tr> -->
 
         </table>
         <br>
-        
-        <button onclick="woo(); handleFormSubmit(event); confetti()" id="submitButton" type="submit">Submit</button>
+        <!-- setTimeout calls the function after 1000 milliseconds -->
+        <button onclick="handleFormSubmit(event); confetti(); partyHorn(); fireworks(); setTimeout(glados, 1000);" id="submitButton" type="submit">Submit</button>
 
     </form>
   
